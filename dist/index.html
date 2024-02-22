@@ -8,8 +8,26 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="">
-
+<body class="m-0 p-0 font-serif">
+    <nav class="w-full sm:w-full flex justify-center items-center bg-[rgba(6,100,100)] text-white text-2xl h-24">
+        <h1>Dictionary App</h1>
+    </nav>
+    <div class="w-full sm:w-[60%] md:w-[60%] lg:w-[50%] xl:w-[50%] p-5 bg-[#fff] shadow-2xl rounded-md mt-11 m-auto">
+        <div class="flex flex-col sm:flex-row gap-2">
+            <input type="text" placeholder="Enter here.." class="w-full sm:w-4/5 p-3 h-10 border-none outline-none bg-[#e1e1e1] text-xl rounded-sm" id="search-input">
+            <button class="w-full sm:w-20 bg-orange-600 text-white text-xl rounded-sm border-none mt-2 sm:mt-0">Search</button>
+        </div>
+        <div class="p-5 mt-5">
+            <h2 class="text-2xl font-bold">Word: <span></span></h2>
+            <p class="mt-4"></p>
+            <p class="mt-4">Word: <span class="text-[rgb(92,91,91)]"></span></p>
+            <p class="mt-4">Meaning: <span class="text-[rgb(92,91,91)]"></span></p>
+            <p class="mt-4">Example: <span class="text-[rgb(92,91,91)]"></span></p>
+            <p class="mt-4">Synonyms: <span class="text-[rgb(92,91,91)]"></span></p>
+            <a href="#" class="py-2 px-5 bg-orange-500 text-white text-xl relative top-3">Read more</a>
+        </div>
+    </div>
+    
 
     
     <script src="main.js"></script>
